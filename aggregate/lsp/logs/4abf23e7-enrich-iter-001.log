@@ -1,0 +1,19 @@
+[2026-09-27T19:14:32Z] === ENRICH ITERATION 1 START | repo=asimov-platform/kestra-asimov-plugin sha=4abf23e7 ===
+[2026-09-27T19:14:32Z] [iter=1] PHASE START: enrich repo=asimov-platform/kestra-asimov-plugin sha=4abf23e7 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4abf23e7-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4abf23e71987124f71711c4f26d0aaff409425c9.nq.gz
+[2026-09-27T19:14:36Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-27T19:14:37Z] [iter=1] AST store loaded triples=17350 load_secs=1 mem_mb=115 MB
+[2026-09-27T19:14:37Z] [iter=1] Step 2: Finding LSP targets mem_mb=115 MB
+[2026-09-27T19:14:37Z] [iter=1] LSP targets found call_sites=118 imports=61 extends=3 implements=0 secs=0
+[2026-09-27T19:14:37Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=115 MB
+[2026-09-27T19:14:37Z] [iter=1] Position index built positions=1057 nodes_with_types=1480 secs=0 mem_mb=115 MB
+[2026-09-27T19:14:37Z] [iter=1] Step 3: Starting LSP resolution mem_mb=115 MB already_completed_types=[] already_completed_files=0
+[2026-09-27T19:14:37Z] [iter=1] Resolving target type target_type=call_site count=118
+[2026-09-27T19:14:56Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=7 secs=19 mem_mb=115 MB
+[2026-09-27T19:14:56Z] [iter=1] Resolving target type target_type=import_statement count=61
+[2026-09-27T19:15:02Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=6 mem_mb=115 MB
+[2026-09-27T19:15:02Z] [iter=1] Resolving target type target_type=extends_clause count=3
+[2026-09-27T19:15:07Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=src/main/java/io/kestra/plugin/asimov/Importer.java
+[2026-09-27T19:15:07Z] [iter=1] Target type resolved target_type=extends_clause resolved=0 errors=0 secs=6 mem_mb=115 MB
+[2026-09-27T19:15:14Z] [iter=1] Step 5: Writing final enrichment file triples=470
+[2026-09-27T19:15:14Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/4abf23e71987124f71711c4f26d0aaff409425c9.nq.gz size_kb=6
+[2026-09-27T19:15:14Z] [iter=1] PHASE END: enrich elapsed_s=42 elapsed_min=0.7 total_triples=470

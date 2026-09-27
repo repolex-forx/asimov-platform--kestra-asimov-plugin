@@ -47,6 +47,69 @@
       ],
       "ast": [
         "aggregate/ast/4abf23e71987124f71711c4f26d0aaff409425c9/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/4abf23e71987124f71711c4f26d0aaff409425c9.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "io.micronaut.test:micronaut-test-junit5",
+          "ecosystem": "MAVEN",
+          "version": "5.2.0",
+          "githubOrg": "scm:git@github.com:micronaut-projects",
+          "githubRepo": "micronaut-test",
+          "githubUrl": "scm:git@github.com:micronaut-projects/micronaut-test.git",
+          "source": "build_file:build.gradle"
+        },
+        {
+          "packageName": "io.micronaut:micronaut-jackson-databind",
+          "ecosystem": "MAVEN",
+          "version": "5.2.8",
+          "githubOrg": "scm:git@github.com:micronaut-projects",
+          "githubRepo": "micronaut-core",
+          "githubUrl": "scm:git@github.com:micronaut-projects/micronaut-core.git",
+          "source": "build_file:build.gradle"
+        },
+        {
+          "packageName": "org.junit.jupiter:junit-jupiter-engine",
+          "ecosystem": "MAVEN",
+          "version": "6.1.3",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit-framework",
+          "githubUrl": "https://github.com/junit-team/junit-framework",
+          "source": "build_file:build.gradle"
+        },
+        {
+          "packageName": "org.hamcrest:hamcrest",
+          "ecosystem": "MAVEN",
+          "version": "3.0",
+          "githubOrg": "hamcrest",
+          "githubRepo": "JavaHamcrest",
+          "githubCommit": "68984b85e869df6a888fffcad87e4b676a8fc0ac",
+          "githubTag": "v3.0",
+          "githubUrl": "https://github.com/hamcrest/JavaHamcrest",
+          "source": "build_file:build.gradle"
+        },
+        {
+          "packageName": "org.hamcrest:hamcrest-library",
+          "ecosystem": "MAVEN",
+          "version": "3.0",
+          "githubOrg": "hamcrest",
+          "githubRepo": "JavaHamcrest",
+          "githubCommit": "68984b85e869df6a888fffcad87e4b676a8fc0ac",
+          "githubTag": "v3.0",
+          "githubUrl": "https://github.com/hamcrest/JavaHamcrest",
+          "source": "build_file:build.gradle"
+        },
+        {
+          "packageName": "io.qameta.allure:allure-junit5",
+          "ecosystem": "MAVEN",
+          "version": "2.35.5",
+          "githubOrg": "allure-framework",
+          "githubRepo": "allure-java",
+          "githubCommit": "8fc77b601516c7447a51b048ffad8fed5c7936cd",
+          "githubTag": "2.35.5",
+          "githubUrl": "https://github.com/allure-framework/allure-java",
+          "source": "build_file:build.gradle"
+        }
       ]
     }
   ],
