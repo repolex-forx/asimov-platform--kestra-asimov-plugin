@@ -1,0 +1,11 @@
+{
+  "org": "asimov-platform",
+  "repo": "kestra-asimov-plugin",
+  "versions": [
+    {
+      "commit": "4abf23e71987124f71711c4f26d0aaff409425c9",
+      "tag": "master",
+      "parsed_at": "2026-09-27T19:18:49.553967+00:00"
+    }
+  ]
+}
