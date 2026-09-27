@@ -110,7 +110,9 @@
           "githubUrl": "https://github.com/allure-framework/allure-java",
           "source": "build_file:build.gradle"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/4abf23e71987124f71711c4f26d0aaff409425c9/chunk-001.nq.gz",
+      "dep": "dep/4abf23e71987124f71711c4f26d0aaff409425c9.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
